@@ -8,7 +8,7 @@ const Gallery = () => {
 
   const images = [
     {
-      image: 'Osso Buco alla Milanese.jpeg',
+      image: './images/Osso Buco alla Milanese.jpeg',
       alt: 'Signature Pasta Dish',
       category: 'Food'
     },
@@ -18,7 +18,7 @@ const Gallery = () => {
       category: 'Interior'
     },
     {
-      image: 'Chef preparing food.jpeg',
+      image: './images/chef preparing food.jpeg',
       alt: 'Chef at Work',
       category: 'Kitchen'
     },

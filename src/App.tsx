@@ -12,11 +12,28 @@ import Contact from './components/Contact';
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
 
-function App() {
-  const [currentView, setCurrentView] = useState('home');
-  const [cartItems, setCartItems] = useState([]);
+// CartItem tipini tanımla
+interface CartItem {
+  id: number;
+  name: string;
+  price: number;
+  image: string;
+  quantity: number;
+}
 
-  const addToCart = (item) => {
+// MenuItem tipini tanımla
+interface MenuItem {
+  id: number;
+  name: string;
+  price: number;
+  image: string;
+}
+
+function App() {
+  const [currentView, setCurrentView] = useState<string>('home');
+  const [cartItems, setCartItems] = useState<CartItem[]>([]);
+
+  const addToCart = (item: MenuItem) => {
     setCartItems(prev => {
       const existing = prev.find(cartItem => cartItem.id === item.id);
       if (existing) {
@@ -30,7 +47,7 @@ function App() {
     });
   };
 
-  const updateCartItem = (id, quantity) => {
+  const updateCartItem = (id: number, quantity: number) => {
     if (quantity === 0) {
       setCartItems(prev => prev.filter(item => item.id !== id));
     } else {
@@ -42,7 +59,7 @@ function App() {
     }
   };
 
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });

@@ -5,7 +5,7 @@ export const menuData = {
       name: 'Antipasto Classico',
       description: 'Traditional Italian appetizer with cured meats, cheeses, olives, and marinated vegetables',
       price: 18,
-      image: 'Antipasto Classico.jpg',
+      image: './images/Antipasto Classico.jpg',
       vegetarian: false,
       glutenFree: true,
       popular: true
@@ -15,7 +15,7 @@ export const menuData = {
       name: 'Bruschetta Trio',
       description: 'Three varieties: classic tomato basil, ricotta honey, and mushroom truffle',
       price: 14,
-      image: 'Bruschetta Trio.jpeg',
+      image: './images/Bruschetta Trio.jpeg',
       vegetarian: true,
       glutenFree: false,
       popular: false
@@ -25,7 +25,7 @@ export const menuData = {
       name: 'Calamari Fritti',
       description: 'Crispy fried squid rings served with marinara and lemon aioli',
       price: 16,
-      image: 'Calamari Fritti.jpeg',
+      image: './images/Calamari Fritti.jpeg',
       vegetarian: false,
       glutenFree: false,
       popular: true
@@ -35,7 +35,7 @@ export const menuData = {
       name: 'Arancini Siciliani',
       description: 'Sicilian rice balls stuffed with mozzarella and peas, served with pomodoro sauce',
       price: 12,
-      image: 'Arancini Siciliani.jpg',
+      image: './images/Arancini Siciliani.jpg',
       vegetarian: true,
       glutenFree: false,
       popular: false
@@ -47,7 +47,7 @@ export const menuData = {
       name: 'Linguine alle Vongole',
       description: 'Fresh clams in white wine sauce with garlic, parsley, and cherry tomatoes',
       price: 26,
-      image: 'Linguine alle Vongole.jpeg',
+      image: './images/Linguine alle Vongole.jpeg',
       vegetarian: false,
       glutenFree: false,
       popular: true
@@ -57,7 +57,7 @@ export const menuData = {
       name: 'Risotto ai Porcini',
       description: 'Creamy Arborio rice with wild porcini mushrooms and Parmigiano-Reggiano',
       price: 24,
-      image: 'Risotto ai Porcini.jpeg',
+      image: './images/Risotto ai Porcini.jpeg',
       vegetarian: true,
       glutenFree: true,
       popular: true
@@ -67,7 +67,7 @@ export const menuData = {
       name: 'Pappardelle al Cinghiale',
       description: 'Wide ribbon pasta with slow-braised wild boar ragu and fresh herbs',
       price: 28,
-      image: 'Pappardelle al Cinghiale.jpeg',
+      image: './images/Pappardelle al Cinghiale.jpeg',
       vegetarian: false,
       glutenFree: false,
       popular: false
@@ -77,7 +77,7 @@ export const menuData = {
       name: 'Gnocchi alla Sorrentina',
       description: 'Homemade potato gnocchi with San Marzano tomatoes, mozzarella, and basil',
       price: 22,
-      image: 'Gnocchi alla Sorrentina.jpeg',
+      image: './images/Gnocchi alla Sorrentina.jpeg',
       vegetarian: true,
       glutenFree: false,
       popular: true
@@ -89,7 +89,7 @@ export const menuData = {
       name: 'Osso Buco alla Milanese',
       description: 'Braised veal shanks with saffron risotto and gremolata',
       price: 42,
-      image: 'Osso Buco alla Milanese.jpeg',
+      image: './images/Osso Buco alla Milanese.jpeg',
       vegetarian: false,
       glutenFree: true,
       popular: true
@@ -99,7 +99,7 @@ export const menuData = {
       name: 'Branzino in Crosta di Sale',
       description: 'Mediterranean sea bass baked in salt crust with roasted vegetables',
       price: 36,
-      image: 'Branzino in Crosta di Sale.jpeg',
+      image: './images/Branzino in Crosta di Sale.jpeg',
       vegetarian: false,
       glutenFree: true,
       popular: false
@@ -109,7 +109,7 @@ export const menuData = {
       name: 'Bistecca alla Fiorentina',
       description: 'Grilled T-bone steak with rosemary, garlic, and Tuscan olive oil',
       price: 48,
-      image: 'Bistecca alla Fiorentina.jpeg',
+      image: './images/Bistecca alla Fiorentina.jpeg',
       vegetarian: false,
       glutenFree: true,
       popular: true
@@ -119,7 +119,7 @@ export const menuData = {
       name: 'Melanzane alla Parmigiana',
       description: 'Layered eggplant with tomatoes, mozzarella, and Parmigiano-Reggiano',
       price: 24,
-      image: 'Melanzane alla Parmigiana.jpeg',
+      image: './images/Melanzane alla Parmigiana.jpeg',
       vegetarian: true,
       glutenFree: false,
       popular: false
@@ -131,7 +131,7 @@ export const menuData = {
       name: 'Pizza Margherita',
       description: 'San Marzano tomatoes, buffalo mozzarella, fresh basil, extra virgin olive oil',
       price: 18,
-      image: 'Pizza Margherita.jpeg',
+      image: './images/Pizza Margherita.jpeg',
       vegetarian: true,
       glutenFree: false,
       popular: true
@@ -141,7 +141,7 @@ export const menuData = {
       name: 'Pizza Diavola',
       description: 'Spicy salami, mozzarella, chili flakes, and oregano',
       price: 22,
-      image: 'Pizza Diavola.jpeg',
+      image: './images/Pizza Diavola.jpeg',
       vegetarian: false,
       glutenFree: false,
       popular: true
@@ -151,7 +151,7 @@ export const menuData = {
       name: 'Pizza Quattro Stagioni',
       description: 'Four seasons pizza with artichokes, ham, mushrooms, and olives',
       price: 24,
-      image: 'Pizza Quattro Stagioni.jpeg',
+      image: './images/Pizza Quattro Stagioni.jpeg',
       vegetarian: false,
       glutenFree: false,
       popular: false
@@ -161,7 +161,7 @@ export const menuData = {
       name: 'Pizza Tartufo',
       description: 'White sauce base with truffle oil, wild mushrooms, and arugula',
       price: 28,
-      image: 'Pizza Tartufo.jpeg',
+      image: './images/Pizza Tartufo.jpeg',
       vegetarian: true,
       glutenFree: false,
       popular: true
@@ -173,7 +173,7 @@ export const menuData = {
       name: 'Tiramisu della Casa',
       description: 'Traditional layered dessert with mascarpone, coffee, and cocoa',
       price: 12,
-      image: 'Tiramisu della Casa.jpeg',
+      image: './images/Tiramisu della Casa.jpeg',
       vegetarian: true,
       glutenFree: false,
       popular: true
@@ -183,7 +183,7 @@ export const menuData = {
       name: 'Panna Cotta ai Frutti di Bosco',
       description: 'Silky vanilla custard with mixed berry compote',
       price: 10,
-      image: 'Panna Cotta ai Frutti di Bosco.jpeg',
+      image: './images/Panna Cotta ai Frutti di Bosco.jpeg',
       vegetarian: true,
       glutenFree: true,
       popular: false
@@ -193,7 +193,7 @@ export const menuData = {
       name: 'Cannoli Siciliani',
       description: 'Crispy shells filled with sweet ricotta and chocolate chips',
       price: 14,
-      image: 'Cannoli Siciliani.jpeg',
+      image: './images/Cannoli Siciliani.jpeg',
       vegetarian: true,
       glutenFree: false,
       popular: true
@@ -203,7 +203,7 @@ export const menuData = {
       name: 'Gelato Artigianale',
       description: 'Daily selection of homemade gelato flavors',
       price: 8,
-      image: 'Gelato Artigianale.jpeg',
+      image: './images/Gelato Artigianale.jpeg',
       vegetarian: true,
       glutenFree: true,
       popular: false
@@ -215,7 +215,7 @@ export const menuData = {
       name: 'Chianti Classico DOCG',
       description: 'Full-bodied Tuscan red wine with notes of cherry and spice',
       price: 48,
-      image: 'Chianti Classico DOCG.jpeg',
+      image: './images/Chianti Classico DOCG.jpeg',
       vegetarian: true,
       glutenFree: true,
       popular: true
@@ -225,7 +225,7 @@ export const menuData = {
       name: 'Prosecco di Valdobbiadene',
       description: 'Crisp sparkling wine from Veneto with floral and fruity notes',
       price: 42,
-      image: 'Prosecco di Valdobbiadene.jpeg',
+      image: './images/Prosecco di Valdobbiadene.jpeg',
       vegetarian: true,
       glutenFree: true,
       popular: false
@@ -235,7 +235,7 @@ export const menuData = {
       name: 'Espresso Romano',
       description: 'Traditional Italian espresso served with a twist of lemon',
       price: 4,
-      image: 'Espresso Romano.jpeg',
+      image: './images/Espresso Romano.jpeg',
       vegetarian: true,
       glutenFree: true,
       popular: true
@@ -245,7 +245,7 @@ export const menuData = {
       name: 'Limoncello della Casa',
       description: 'House-made lemon liqueur served chilled',
       price: 12,
-      image: 'Limoncello della Casa.jpeg',
+      image: './images/Limoncello della Casa.jpeg',
       vegetarian: true,
       glutenFree: true,
       popular: false

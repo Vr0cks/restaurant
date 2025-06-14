@@ -79,24 +79,24 @@ const About = () => {
           <div className="grid grid-cols-2 gap-4">
             <div className="space-y-4">
               <img
-                src="Chef preparing food.jpeg"
+                src="./images/Chef preparing food.jpeg"
                 alt="Chef preparing food"
                 className="w-full h-64 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
               />
               <img
-                src="Restaurant interior.jpg"
+                src="./images/Restaurant interior.jpg"
                 alt="Restaurant interior"
                 className="w-full h-48 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
               />
             </div>
             <div className="space-y-4 mt-8">
               <img
-                src="Fresh ingredients.jpg"
+                src="./images/Fresh ingredients.jpg"
                 alt="Fresh ingredients"
                 className="w-full h-48 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
               />
               <img
-                src="Elegant dining.jpeg"
+                src="./images/Elegant dining.jpeg"
                 alt="Elegant dining"
                 className="w-full h-64 object-cover rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
               />

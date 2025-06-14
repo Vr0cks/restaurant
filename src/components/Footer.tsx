@@ -126,7 +126,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-8 mt-12">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-2 text-gray-400 mb-4 md:mb-0">
-              <span>© 2024 Bella Vista Restaurant. Made with</span>
+              <span>© 2025 Bella Vista Restaurant . Made with</span>
               <Heart className="h-4 w-4 text-red-500 fill-current" />
               <span>for food lovers</span>
             </div>

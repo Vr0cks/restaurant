@@ -39,7 +39,7 @@ const ChefSpecial = () => {
           {/* Image */}
           <div className="relative">
             <img
-              src="Truffle Risotto alle Porcini.jpg"
+              src="./images/Truffle Risotto alle Porcini.jpg"
               alt="Chef's Special Dish"
               className="w-full h-80 object-cover rounded-2xl shadow-2xl"
             />
